@@ -1,0 +1,1 @@
+nvim/lua/plugins/snacks-animated-scrolling-off.lua
