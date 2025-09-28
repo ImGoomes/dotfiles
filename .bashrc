@@ -7,9 +7,5 @@ source ~/.local/share/omarchy/default/bash/rc
 # start/reuse an agent and load your key
 eval "$(keychain --quiet --eval ~/.ssh/github)"
 
-# verify: SSH_AUTH_SOCK exists and key is loaded
-echo "$SSH_AUTH_SOCK" && test -S "$SSH_AUTH_SOCK" && echo socket_ok
-ssh-add -l
-
 # Make an alias for invoking commands you use constantly
 # alias p='python'
