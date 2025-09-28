@@ -1,1 +1,14 @@
-git/config
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[user]
+	name = Gabriel Gomes
+  email = 32543593+ImGoomes@users.noreply.github.com
+[fetch]
+	prune = true

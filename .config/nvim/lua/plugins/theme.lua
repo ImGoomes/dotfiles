@@ -1,1 +1,1 @@
-nvim/lua/plugins/theme.lua
+/home/imgoomes/.config/omarchy/current/theme/neovim.lua

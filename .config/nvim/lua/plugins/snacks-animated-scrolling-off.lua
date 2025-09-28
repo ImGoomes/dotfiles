@@ -1,1 +1,8 @@
-nvim/lua/plugins/snacks-animated-scrolling-off.lua
+return {
+	"folke/snacks.nvim",
+	opts = {
+		scroll = {
+			enabled = false, -- Disable scrolling animations
+		},
+	},
+}
