@@ -119,3 +119,4 @@ if [ -f /opt/ros/lyrical/setup.zsh ]; then
   eval "$(register-python-argcomplete ros2)"
   eval "$(register-python-argcomplete colcon)"
 fi
+export PATH=$HOME/.local/bin:$PATH
